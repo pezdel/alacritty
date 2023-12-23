@@ -1,0 +1,23 @@
+import:
+ - ~/.config/alacritty/themes/themes/gotham.yaml
+
+
+font:
+  normal: 
+    family: Comic Shanns 
+    # family: JetBrains Mono SemiBold
+    # family: JetBrains Mono Medium 
+  size: 12.0
+
+window:
+  opacity: 0.9
+
+# FOR TMUX
+env:
+  TERM: xterm-256color
+
+mouse:
+    hide_when_typing: true
+
+key_bindings:
+  - { key: N,  mods: Shift|Control, action: CreateNewWindow }
